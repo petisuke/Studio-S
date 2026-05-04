@@ -494,6 +494,46 @@ h3 {
   font-size: 0.94rem;
 }
 
+.text-link {
+  display: inline-flex;
+  margin-top: 18px;
+  color: #116f62;
+  font-weight: 800;
+}
+
+.text-link:hover {
+  color: var(--navy);
+}
+
+.service-hero {
+  padding: clamp(64px, 11vw, 128px) clamp(20px, 5vw, 64px) clamp(44px, 8vw, 88px);
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.94), rgba(247, 250, 249, 0.78)),
+    url("assets/hero-voice.png") center / cover;
+  border-bottom: 1px solid var(--line);
+}
+
+.service-hero h1 {
+  max-width: 980px;
+}
+
+.service-content {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: clamp(28px, 6vw, 72px);
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+
+.service-copy {
+  color: var(--muted);
+  font-size: clamp(1rem, 1.5vw, 1.1rem);
+}
+
+.service-copy p:last-child {
+  margin-bottom: 0;
+}
+
 .credits-section {
   background: var(--paper);
   border-top: 1px solid var(--line);
@@ -706,7 +746,8 @@ h3 {
   .hero,
   .intro,
   .profile-section,
-  .workflow-section {
+  .workflow-section,
+  .service-content {
     grid-template-columns: 1fr;
   }
 
