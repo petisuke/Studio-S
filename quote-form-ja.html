@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>お見積もり・ご相談フォーム | Studio S</title>
+    <meta
+      name="description"
+      content="Studio Sへの日本語ボイスオーバー、ナレーション、吹き替え、キャスティングのお見積もり・ご相談フォーム。"
+    />
+    <link rel="canonical" href="https://petisuke.github.io/Studio-S/quote-form-ja.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Studio S" />
+    <meta property="og:title" content="お見積もり・ご相談フォーム | Studio S" />
+    <meta property="og:description" content="日本語ボイスオーバー、ナレーション、吹き替え、キャスティングのご相談内容を送信できます。" />
+    <meta property="og:url" content="https://petisuke.github.io/Studio-S/quote-form-ja.html" />
+    <meta property="og:image" content="https://petisuke.github.io/Studio-S/assets/hero-voice.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="サイトヘッダー">
+      <a class="brand" href="ja.html" aria-label="Studio S 日本語トップ">
+        <span class="brand-mark">V</span>
+        <span>
+          <span class="brand-name">Studio S</span>
+          <span class="brand-role">声優・ナレーター 武弘コウ</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="メインナビゲーション">
+        <a href="ja.html#voice">Voice</a>
+        <a href="ja.html#works">Works</a>
+        <a href="ja.html#profile">Profile</a>
+        <a href="quote-form.html">EN</a>
+        <a class="nav-contact" href="quote-form-ja.html">相談</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="service-hero compact">
+        <p class="eyebrow">お見積もり・ご相談</p>
+        <h1>必要な声の内容を教えてください。</h1>
+        <p class="lead">
+          下の項目を入力すると、内容が整理されたメールが開きます。
+          原稿量、用途、納期、必要な声の人数などが分かると、お見積もりがスムーズです。
+        </p>
+      </section>
+
+      <section class="section form-section" aria-labelledby="quote-form-title">
+        <div>
+          <p class="section-kicker">Project Brief</p>
+          <h2 id="quote-form-title">ご相談内容</h2>
+          <p class="form-note">
+            * は必須項目です。料金は原稿量、使用範囲、納期、外部キャスティングの有無、
+            映像同期の必要性などをもとにお見積もりします。
+          </p>
+        </div>
+
+        <form class="quote-form" id="quote-form">
+          <label>
+            <span>お名前 / 会社名 *</span>
+            <input name="name" autocomplete="name" required />
+          </label>
+
+          <label>
+            <span>メールアドレス *</span>
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+
+          <label>
+            <span>案件種別 *</span>
+            <select name="projectType" required>
+              <option value="">選択してください</option>
+              <option>ボイスオーバー</option>
+              <option>YouTubeドキュメンタリー吹き替え</option>
+              <option>企業PRナレーション</option>
+              <option>ゲーム / CM</option>
+              <option>アニメ / ショートドラマ</option>
+              <option>声優キャスティング</option>
+              <option>その他</option>
+            </select>
+          </label>
+
+          <label>
+            <span>原稿量 / 動画尺 *</span>
+            <input name="scriptLength" placeholder="例: 日本語900文字 / 3分動画" required />
+          </label>
+
+          <label>
+            <span>希望納期 *</span>
+            <input name="deadline" placeholder="例: 2026年5月10日 / なる早" required />
+          </label>
+
+          <label>
+            <span>使用用途 *</span>
+            <select name="usage" required>
+              <option value="">選択してください</option>
+              <option>YouTube</option>
+              <option>Web広告</option>
+              <option>社内利用</option>
+              <option>放送</option>
+              <option>アプリ / ゲーム</option>
+              <option>イベント / 展示会</option>
+              <option>その他</option>
+            </select>
+          </label>
+
+          <label>
+            <span>必要な声の人数 *</span>
+            <select name="voices" required>
+              <option value="">選択してください</option>
+              <option>男性1名</option>
+              <option>男女ペア</option>
+              <option>複数名の声優チーム</option>
+              <option>未定 / 相談したい</option>
+            </select>
+          </label>
+
+          <label>
+            <span>参考動画URL</span>
+            <input name="reference" type="url" placeholder="https://..." />
+          </label>
+
+          <label>
+            <span>希望トーン</span>
+            <input name="tone" placeholder="例: 明るい、自然、ドキュメンタリー調、低め" />
+          </label>
+
+          <label>
+            <span>希望納品形式</span>
+            <input name="format" placeholder="例: WAV 48kHz / MP3 / お任せ" />
+          </label>
+
+          <label>
+            <span>ご予算感</span>
+            <input name="budget" placeholder="任意" />
+          </label>
+
+          <label class="full">
+            <span>ご相談内容・補足 *</span>
+            <textarea name="message" rows="7" required placeholder="読み方の指定、映像同期の有無、リテイク想定、その他共有事項があればご記入ください。"></textarea>
+          </label>
+
+          <button class="button primary form-submit" type="submit">メールを作成する</button>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
