@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Request a Japanese Voice Over Quote | Studio S</title>
+    <meta
+      name="description"
+      content="Request a Japanese voice over quote from Studio S. Send script details, deadline, usage, number of voices, tone, and file format."
+    />
+    <link rel="canonical" href="https://petisuke.github.io/Studio-S/quote-form.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Studio S" />
+    <meta property="og:title" content="Request a Japanese Voice Over Quote | Studio S" />
+    <meta property="og:description" content="Send project details for Japanese voice over, documentary dubbing, corporate narration, or casting support." />
+    <meta property="og:url" content="https://petisuke.github.io/Studio-S/quote-form.html" />
+    <meta property="og:image" content="https://petisuke.github.io/Studio-S/assets/hero-voice.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Site header">
+      <a class="brand" href="./" aria-label="Studio S home">
+        <span class="brand-mark">V</span>
+        <span>
+          <span class="brand-name">Studio S</span>
+          <span class="brand-role">Japanese VO by Ko Takehiro</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="./#voice">Voice</a>
+        <a href="./#team">Team</a>
+        <a href="./#faq">FAQ</a>
+        <a href="ja.html">JP</a>
+        <a class="nav-contact" href="quote-form.html">Quote</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="service-hero compact">
+        <p class="eyebrow">Request a Quote</p>
+        <h1>Tell Studio S what kind of Japanese voice your project needs.</h1>
+        <p class="lead">
+          Fill in the details below and your email app will open with a prepared inquiry.
+          This keeps the project brief structured while avoiding a public email address on the page.
+        </p>
+      </section>
+
+      <section class="section form-section" aria-labelledby="quote-form-title">
+        <div>
+          <p class="section-kicker">Project Brief</p>
+          <h2 id="quote-form-title">Japanese voice over inquiry</h2>
+          <p class="form-note">
+            Required fields are marked. Quotes are based on script length, usage,
+            deadline, casting needs, and sync requirements.
+          </p>
+        </div>
+
+        <form class="quote-form" id="quote-form">
+          <label>
+            <span>Name / Company *</span>
+            <input name="name" autocomplete="name" required />
+          </label>
+
+          <label>
+            <span>Email *</span>
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+
+          <label>
+            <span>Project type *</span>
+            <select name="projectType" required>
+              <option value="">Select one</option>
+              <option>Japanese voice over</option>
+              <option>YouTube documentary dubbing</option>
+              <option>Corporate narration</option>
+              <option>Mobile game ad</option>
+              <option>Anime / short drama</option>
+              <option>Japanese voice casting</option>
+              <option>Other</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Script length / word count *</span>
+            <input name="scriptLength" placeholder="e.g. 900 Japanese characters / 3 min video" required />
+          </label>
+
+          <label>
+            <span>Deadline *</span>
+            <input name="deadline" placeholder="e.g. May 10, 2026 / ASAP" required />
+          </label>
+
+          <label>
+            <span>Usage *</span>
+            <select name="usage" required>
+              <option value="">Select one</option>
+              <option>YouTube</option>
+              <option>Web ad</option>
+              <option>Internal use</option>
+              <option>Broadcast</option>
+              <option>App / game</option>
+              <option>Event / exhibition</option>
+              <option>Other</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Number of voices *</span>
+            <select name="voices" required>
+              <option value="">Select one</option>
+              <option>Solo male Japanese VO</option>
+              <option>Male + female pair</option>
+              <option>Small Japanese voice team</option>
+              <option>Not sure yet</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Video reference URL</span>
+            <input name="reference" type="url" placeholder="https://..." />
+          </label>
+
+          <label>
+            <span>Desired tone</span>
+            <input name="tone" placeholder="e.g. bright, natural, documentary, low tone" />
+          </label>
+
+          <label>
+            <span>Preferred file format</span>
+            <input name="format" placeholder="e.g. WAV 48kHz / MP3 / any" />
+          </label>
+
+          <label>
+            <span>Budget range</span>
+            <input name="budget" placeholder="Optional" />
+          </label>
+
+          <label class="full">
+            <span>Message / notes *</span>
+            <textarea name="message" rows="7" required placeholder="Please include pronunciation notes, sync needs, revision expectations, and anything else useful."></textarea>
+          </label>
+
+          <button class="button primary form-submit" type="submit">Prepare Email Inquiry</button>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
