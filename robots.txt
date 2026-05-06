@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://petisuke.github.io/Studio-S/sitemap.xml
+Sitemap: https://petisuke.github.io/Studio-S/sitemap.txt
