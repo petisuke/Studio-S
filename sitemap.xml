@@ -1,58 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://petisuke.github.io/Studio-S/</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://petisuke.github.io/Studio-S/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://petisuke.github.io/Studio-S/ja.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://petisuke.github.io/Studio-S/" />
+    <lastmod>2026-05-06</lastmod>
   </url>
   <url>
     <loc>https://petisuke.github.io/Studio-S/ja.html</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://petisuke.github.io/Studio-S/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://petisuke.github.io/Studio-S/ja.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://petisuke.github.io/Studio-S/" />
+    <lastmod>2026-05-06</lastmod>
   </url>
   <url>
     <loc>https://petisuke.github.io/Studio-S/japanese-voice-over.html</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-05-06</lastmod>
   </url>
   <url>
     <loc>https://petisuke.github.io/Studio-S/youtube-documentary-dubbing.html</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-05-06</lastmod>
   </url>
   <url>
     <loc>https://petisuke.github.io/Studio-S/corporate-japanese-narration.html</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-05-06</lastmod>
   </url>
   <url>
     <loc>https://petisuke.github.io/Studio-S/japanese-voice-casting.html</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-05-06</lastmod>
   </url>
   <url>
     <loc>https://petisuke.github.io/Studio-S/quote-form.html</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-05-06</lastmod>
   </url>
   <url>
     <loc>https://petisuke.github.io/Studio-S/quote-form-ja.html</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <lastmod>2026-05-06</lastmod>
   </url>
 </urlset>
