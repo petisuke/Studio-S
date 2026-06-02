@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script id="legacy-domain-redirect">
+      if (location.hostname === "petisuke.github.io") {
+        const newPath = location.pathname.replace(/^\/Studio-S/, "") || "/";
+        location.replace("https://studio-s-voice.com" + newPath + location.search + location.hash);
+      }
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Japanese Voice Over Service | Studio S</title>

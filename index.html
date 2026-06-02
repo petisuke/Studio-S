@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script id="legacy-domain-redirect">
+      if (location.hostname === "petisuke.github.io") {
+        const newPath = location.pathname.replace(/^\/Studio-S/, "") || "/";
+        location.replace("https://studio-s-voice.com" + newPath + location.search + location.hash);
+      }
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="google-site-verification" content="RTM8Fk4kIv88d6Tzj_QJzhXH6kgr6m_rOpf1w_9rH7w" />
